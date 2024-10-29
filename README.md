@@ -14,10 +14,6 @@ To address these challenges, **Swiss Cheese** is being developed as an automatio
 - **Stealth**: Enhances the realism of engagements by focusing on persistence methods that evade detection.
 
 ## Features
-
----
-
-### New Features
 1. **Automation**:
     - Streamlines the deployment of persistence methods across both Linux and Windows systems.
     - Reduces the manual labor typically required to maintain persistence across a variety of systems.
@@ -28,7 +24,9 @@ To address these challenges, **Swiss Cheese** is being developed as an automatio
         - Login scripts
     - For more specific details reference the readme within the relevant folder
     - The library serves as a reference for quickly deploying persistence mechanisms.
-### Features Under Development
+---
+
+### New Features
 1. **Comprehensive Library of Persistence Methods**:
     - A detailed library documenting persistence techniques for both Linux and Windows platforms, including:
     - Linux
@@ -42,12 +40,14 @@ To address these challenges, **Swiss Cheese** is being developed as an automatio
         - RDP enabling
         - Registry modifications
     - The library serves as a reference for quickly deploying persistence mechanisms.
+### Features Under Development
 
-2. **Modular and Extensible**:
+
+1. **Modular and Extensible**:
     - Written in Python, Bash, and Batch scripting to ensure cross-platform compatibility.
     - Modular design allows red teams to customize and extend the framework based on their specific engagement needs.
    
-3. **Stealth and Evasion**:
+2. **Stealth and Evasion**:
     - Includes obfuscation techniques and anti-detection measures to ensure persistence methods are less likely to be detected by defensive tools or logging mechanisms.
     - Helps maintain a realistic and challenging environment for blue teams during exercises.
 
@@ -61,10 +61,12 @@ To address these challenges, **Swiss Cheese** is being developed as an automatio
 ---
 
 - **Python**: Research Items
-    -  Is python the correct choice for a cross platform interface.
+    -  How can I create a front end to call the already created scripts
 - **Windows**: Research Items
-    -  What persistence is possiable on windows
-    -  How can batch scripts be used to automate this process.
+    -  What additional persistence is possible on windows
+-  **Stealth**: Research Items
+    - How can I edit logs to hide the scripts running
+    - how can I automate the removal of the scripts
 ## Summary
 
 ---
