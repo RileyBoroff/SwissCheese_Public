@@ -12,7 +12,7 @@ if ($hideUser -eq "Y" -or $hideUser -eq "y") {
 }
 
 # Create the user account with or without a description
-New-LocalUser -Name "rdpuser" -Password $password -Description $description
+New-LocalUser -Name $user -Password $password -Description $description
 try {
 Add-LocalGroupMember -Group "Administrators" -Member "$user"
 }
