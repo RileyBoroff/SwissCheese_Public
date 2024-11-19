@@ -1,0 +1,31 @@
+SwissCheese is a program designed to automate setting up persistence in a blue team box
+
+Set_RTV)
+    Allows for the red team to set variables related to where information should be sent
+
+User_Account_Lin/Win)
+    Adds users with root/admin level access to the box
+
+SSH_Keys_lin)
+    allows for ssh keys to be downloaded to the machine running the script
+
+Cronjob)
+    Adds lines to the crontab file
+
+Bashrc)
+    Adds lines to the bashrc for root
+
+Service)
+    creates a malicious service
+
+Rip_and_Tear)
+    runs all options except for Self-Destruct
+
+Self_Destruct)
+    remove the program and clear bash service
+
+Exit)
+    Exits the program
+
+RPD_Enable)
+    enables the remote desktop for windows
